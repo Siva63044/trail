@@ -1,0 +1,358 @@
+/* header {
+    height: 50px;
+    /* Height of the Header Section */
+  
+  
+  main {
+    min-height: 100vh;
+    /* Minimum Height of the main Content Section so that Footer will be after that particular minimum height */
+  }
+  
+  #main-content {
+    min-height: 40vh;
+    /* Setting Minimum Height of the main Content */
+  }
+  #logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    /* Website Logo Image Width */
+  }
+  
+  #location-select {
+    width: 20rem;
+    /* User Select Option Width */
+  }
+  #s-button {
+    width: fit-content;
+    /* Setting Button Width to fit content */
+  }
+  
+  .i-card {
+    width: 200px;
+    /* Setting Information Card width */
+  }
+  .i-image {
+    width: 120px;
+    height: 120px;
+    /* Image in information card width and height */
+  }
+  .t-card {
+    width: 300px;
+    /* testimonials Card Width */
+  }
+  
+  #rating {
+    width: 35px;
+    /* testimonials Card, User Rating Element Width */
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    /* Social Icon Width and Height */
+  }
+  
+  * {
+    padding: 0;
+  /*Removing Default Padding*/
+  }
+  
+  header {
+    height: 50px;
+  }
+  
+  #logo {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  #login {
+    padding: 5px 30px;
+    /* Padding in Login Button */
+  }
+  
+  #nav {
+    padding-left: 20px;
+    /* Padding in Nav Bar */
+  }
+  
+  main {
+    min-height: 100vh;
+  }
+  
+  #main-content {
+    min-height: 40vh;
+  }
+  
+  #location-select {
+    width: 20rem;
+    padding: 5px;
+    /* User Select Option Padding */
+  }
+  #s-button {
+    width: fit-content;
+    padding: 8px 30px;
+    /* Search Button Padding */
+  }
+  
+  .i-card {
+    width: 200px;
+    padding: 10px;
+    /* Information Card Padding */
+  }
+  .i-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  #testimonials {
+    padding: 20px;
+    /* Internal Padding of Testimanials container */
+  }
+  
+  .t-card {
+    width: 300px;
+    padding: 20px;
+    /* testimonials Card Padding */
+  }
+  
+  #rating {
+    width: 35px;
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+
+  * {
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    /* Removing Default Margin of Body */
+  }
+  
+  header {
+    height: 50px;
+  }
+  
+  #head-title {
+    margin-left: 100px;
+    /* Left Margin on Website Title */
+  }
+  
+  #logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 2px;
+    /* Image and Text Spacing using margin */
+  }
+  
+  #login {
+    padding: 5px 30px;
+  }
+  
+  nav {
+    padding-left: 20px;
+  }
+  
+  #nav-end {
+    margin-right: 30px;
+    /* Right Margin of Nav Bar */
+  }
+  
+  .nav-elements {
+    margin: 2px 30px;
+    /* Internal Nav Elements Margin */
+  }
+  
+  main {
+    min-height: 100vh;
+  }
+  
+  #main-content {
+    min-height: 40vh;
+  }
+  
+  #location-select {
+    width: 20rem;
+    padding: 5px;
+    margin: 5px;
+    /* User Select Margin*/
+  }
+  
+  #location-select p {
+    margin: 0.5rem 4px 1rem;
+    /* Paragraph in Location Select Margin */
+  }
+  
+  #depart,
+  #arrive {
+    margin: 1rem, 0;
+  }
+  #s-button {
+    width: fit-content;
+    padding: 8px 30px;
+    margin: 20px 0px;
+    /* Search Button Margin */
+  }
+  
+  .i-card {
+    width: 200px;
+    padding: 10px;
+    margin: 5px 10px;
+    /* Information Card Margin */
+  }
+  .i-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .i-count {
+    margin: 0;
+    /* Removing default margin from information card */
+  }
+  
+  #testimonials {
+    margin-top: 10vh;
+    /*Top Margin of Testimanials container */
+  }
+  
+  .t-card {
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+    /* testimonials Card Margin */
+  }
+  
+  .t-card h3,
+  .t-card p,
+  .t-card h4 {
+    margin: 3px;
+  }
+  
+  #rating {
+    width: 35px;
+    margin-top: 5px;
+    /* testimonials Card, User Rating Element Top Margin */
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 30px;
+    /* Social Icon Seperation From Each other Margin */
+  }
+  
+  * {
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  header {
+    height: 50px;
+    border-bottom: 3px solid rgba(201, 195, 195, 0.778);
+    /* Bottom Border to Nav Bar */
+  }
+  
+  #head-title {
+    margin-left: 100px;
+  }
+  
+  #logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 2px;
+  }
+  
+  #login {
+    padding: 5px 30px;
+    border-radius: 5px;
+    /* Making Login Button Border Rounded */
+  }
+  
+  nav {
+    padding-left: 20px;
+  }
+  
+  #nav-end {
+    margin-right: 30px;
+  }
+  
+  .nav-elements {
+    margin: 2px 30px;
+  }
+  
+  main {
+    min-height: 100vh;
+  }
+  
+  #main-content {
+    min-height: 40vh;
+  }
+  
+  #location-select {
+    width: 20rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    /* Making Div Border Rounded */
+  }
+  
+  #location-select p {
+    margin: 0.5rem 4px 1rem;
+  }
+  
+  #depart,
+  #arrive {
+    margin: 1rem, 0;
+    border: none;
+    /* removing select default border */
+  }
+  #s-button {
+    width: fit-content;
+    padding: 8px 30px;
+    margin: 20px 0px;
+    border-radius: none;
+    border-radius: 5px;
+    /* Making Select Button Border Rounded  and removing default border*/
+  }
+  
+  .i-card {
+    width: 200px;
+    padding: 10px;
+    margin: 5px 10px;
+  }
+  .i-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .i-count {
+    margin: 0;
+  }
+  
+  #testimonials {
+    margin-top: 10vh;
+  }
+  
+  .t-card {
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+  }
+  
+  #rating {
+    width: 35px;
+    margin-top: 5px;
+    border-radius: 4px;
+    /* testimonials Card, User Rating Element border radius*/
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 30px;
+  } 

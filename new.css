@@ -1,0 +1,75 @@
+body{
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+h2{
+    color: white;
+    background-color: rgb(238, 8, 85);
+    font-style: italic;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.first{
+    font-weight:bold;
+    color: green;
+}
+.second{
+    color: rgb(2, 0, 0);
+    font-family: cursive;
+}
+.third{
+    font-family: cursive;
+    color:rgb(16, 60, 141);
+}
+
+.fourth{
+    font-family: cursive;
+    color:rgb(228, 16, 192);
+}
+
+.fifth{
+    font-weight: bold;
+    color: coral;
+    font-family: cursive;
+    font-size: medium;
+}
+.sec{
+    color: rgb(109, 3, 209);
+    font-weight: bold;
+}
+.col{
+    font-family:cursive;
+    color:yellow ;
+}
+.colm{
+    font-family: cursive;
+    color: indianred;
+}
+.last{
+    color: blue;
+}
+#hover{
+    color: chartreuse;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+#refer{
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000;
+    font-style: italic;
+    color: crimson;
+}
+#video{
+    position: absolute;
+    max-width: 560;
+    margin-left: 150px;
+
+}
